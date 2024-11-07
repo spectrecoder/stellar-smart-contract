@@ -7,8 +7,8 @@ pub struct HelloContract;
 #[contractimpl]
 impl HelloContract {
     pub fn hello(env: Env, to: String) -> Vec<String> {
-        // Construct the Vec with Strings
-        vec![&env, String::from_str(&env, "Hello"), to]
+        // Construct the Vec with Strings 
+        vec![&env, String::from_str(&env, "Hello"), to] 
     }
 }
 
